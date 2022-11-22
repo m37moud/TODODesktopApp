@@ -28,6 +28,7 @@ dependencies {
     implementation("com.badoo.reaktive:reaktive:1.2.2")
     implementation(com.Badoo.Reaktive.coroutinesInterop)
     implementation("com.squareup.sqldelight:gradle-plugin:1.5.4")
+    implementation ("com.squareup.sqldelight:jdbc-driver:1.5.3")
 }
 
 tasks.withType<KotlinCompile> {
