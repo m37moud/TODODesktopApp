@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     implementation(compose.desktop.currentOs)
-    implementation(com.JetBrains.Coroutines.swing)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.6.0")
     implementation(implementation("com.arkivanov.decompose:decompose:2.0")
     implementation("com.arkivanov.decompose:extensions-compose-jetpack:2.0")
     implementation("com.arkivanov.mvikotlin:mvikotlin:3.0.2")
