@@ -21,8 +21,10 @@ repositories {
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.6.0")
-    implementation(implementation("com.arkivanov.decompose:decompose:2.0")
-    implementation("com.arkivanov.decompose:extensions-compose-jetpack:2.0")
+     // Decompose : Decompose
+    val decomposeVersion = "0.2.5"
+    implementation("com.arkivanov.decompose:decompose-jvm:$decomposeVersion")
+    implementation("com.arkivanov.decompose:extensions-compose-jetbrains-jvm:$decomposeVersion")
     implementation("com.arkivanov.mvikotlin:mvikotlin:3.0.2")
     implementation(com.ArkIvanov.MVIKotlin.mvikotlinMain)
     implementation("com.badoo.reaktive:reaktive:1.2.2")
